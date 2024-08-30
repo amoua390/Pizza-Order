@@ -1,7 +1,10 @@
 print("Thank you for choosing Python Pizza Deliveries!")
-size = input() # What size pizza do you want? S, M, or L
-add_pepperoni = input() # Do you want pepperoni? Y or N
-extra_cheese = input() # Do you want extra cheese? Y or N
+print("What size pizza would you like? S, M, or L")
+size = input() 
+print("Do you want pepperoni? Y or N")
+add_pepperoni = input() 
+print("Do you want extra cheese? Y or N")
+extra_cheese = input()
 
 bill = 0
 
